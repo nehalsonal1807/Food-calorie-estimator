@@ -1,14 +1,13 @@
 # Food Calorie Estimator
 
 A simple Python project that provides information on food items in terms of their calorie and nutrient content,
-makes calorie predictions using a Machine Learning model,
-and provides related foods in the same category using BFS and DFS algorithms.
+makes calorie predictions and provides related foods in the same category using BFS and DFS algorithms.
 
 
 ## What it does
 
 - Input food item → Get its calories, protein, carbs, and fat content
-- Input your own nutrient values → ML model will predict calories
+- Input your own nutrient values 
 - Get similar foods in the same category using **BFS**
 - Explore the full food category using **DFS**
 - Display all 32 food items in a table
@@ -18,7 +17,7 @@ and provides related foods in the same category using BFS and DFS algorithms.
 
 **Install required libraries:**
 ```
-pip install pandas numpy scikit-learn
+pip install pandas
 ```
 
 **Run the program:**
@@ -39,7 +38,7 @@ Enter food name: apple
 
 ## Tech used
 
-Python · pandas · numpy · scikit-learn · BFS / DFS
+Python · pandas  · BFS / DFS
 
 
 > Just one file. No CSV needed. Everything runs from main.py
